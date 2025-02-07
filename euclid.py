@@ -6,3 +6,6 @@ def euclid(a, b):
 
 x = int(input("Введіть перше число: "))
 y = int(input("Введіть друге число: "))
+
+result = euclid(x, y)
+print(result)
