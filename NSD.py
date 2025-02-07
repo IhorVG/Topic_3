@@ -1,9 +1,9 @@
-def gcd(a, b):
-  while b:
-    a, b = b, a % b
-  return a
+def nsd(a, b):
+    if b == 0:
+        return a
+    return gcd(b, a % b)
 
-a = 12
-b = 45
+if __name__ == "__main__":
+    x, y = map(int, input("Enter two numbers: ").split())
+    print("NSD:", gcd(x, y))
 
-print(gcd(a,b))
