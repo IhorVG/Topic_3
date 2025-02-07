@@ -6,3 +6,4 @@ def nsd(a, b):
 if __name__ == "__main__":
     x, y = map(int, input("Enter two numbers: ").split())
     print("NSD:", gcd(x, y))
+
